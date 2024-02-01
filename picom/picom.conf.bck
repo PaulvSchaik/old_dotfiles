@@ -1,0 +1,13 @@
+opacity-rule = [ "90:class_g = 'alacritty' && focused", "80:class_g = 'alacritty' && !focused", "90:class_g = 'Xfce4-terminal' && focused", "80:class_g = 'Xfce4-terminal' && !focused", "90:class_g = 'xfce4-terminal' && focused", "80:class_g = 'xfce4-terminal' && !focused" ];
+
+inactive-opacity = 0.60;
+active-opacity = 1.00;
+frame-opacity = 1.00;
+
+blur: {
+  method = "kawase";
+  strength = 9;
+  background = false;
+  background-frame = false;
+  background-fixed = false;
+}
