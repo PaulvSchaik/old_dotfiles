@@ -193,9 +193,7 @@ bindsym $mod+Shift+s exec flameshot gui
 
 # mijn eigen start scripts
 exec_always --no-startup-id autotiling
-exec --no-startup-id spotify-listener
 exec --no-startup-id xrandr --output eDP-1 --scale 0.5
-exec --no-startup-id blueman-applet
 exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1
 exec --no-startup-id "sh -c 'sleep 10; exec i3-msg restart'"
 exec --no-startup-id xinput set-prop "DLL09FF:01 06CB:CE39 Touchpad" "libinput Tapping Enabled" 1
